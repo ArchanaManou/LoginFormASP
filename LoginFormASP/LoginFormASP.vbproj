@@ -92,6 +92,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Applicant.aspx" />
     <Content Include="bg3.jpg" />
     <Content Include="FormStyle.css" />
     <Content Include="lg2.png" />
@@ -100,6 +101,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Applicant.aspx.designer.vb">
+      <DependentUpon>Applicant.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Applicant.aspx.vb">
+      <DependentUpon>Applicant.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="LoginForm.aspx.designer.vb">
       <DependentUpon>LoginForm.aspx</DependentUpon>
     </Compile>

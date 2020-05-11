@@ -7,6 +7,7 @@
     <title>Login</title>
 </head>
 <body>
+    <h2>olalala</h2>
     <div class="loginBox">
         <img src="lg2.png" alt="Alternate Text" class="user"/>
         <h2>LOG IN HERE</h2>
